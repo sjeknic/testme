@@ -24,6 +24,7 @@ binary_search <- function(vec, x) {
     } else if (mid_val > x) {
       high <- mid - 1
     } else {
+      print(mid)
       return(mid)
     }
   }
